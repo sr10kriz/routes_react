@@ -1,0 +1,28 @@
+.products_div {
+    display: flex;
+    justify-content: center;
+}
+.products_message {
+    text-transform: capitalize;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.products_btn {
+    display: flex;
+    justify-content: center;
+}
+.products_btn>button {
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: #2e2d2d;
+    border: 1px solid #2e2d2d;
+}
+.products_btn>button:hover {
+    background-color: #2f81f7;
+    border: 1px solid #2f81f7;
+    cursor: pointer;
+    transition: 0.3s;
+}

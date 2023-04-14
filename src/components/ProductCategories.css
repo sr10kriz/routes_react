@@ -1,0 +1,11 @@
+.p_categories_div {
+    display: flex;
+    justify-content: center;
+}
+.p_categories_message {
+    text-transform: capitalize;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
