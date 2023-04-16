@@ -12,6 +12,7 @@
 .products_btn {
     display: flex;
     justify-content: center;
+    padding: 10px 0px 0px 0px;
 }
 .products_btn>button {
     padding: 10px;
@@ -25,4 +26,14 @@
     border: 1px solid #2f81f7;
     cursor: pointer;
     transition: 0.3s;
+}
+ul {
+    text-align: center;
+}
+ul>li {
+    padding: 5px;
+}
+ul>li>a {
+    text-decoration: none;
+    color: white;
 }

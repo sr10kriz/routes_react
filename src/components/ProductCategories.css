@@ -9,3 +9,13 @@
     text-align: center;
     font-size: 25px;
 }
+ul {
+    text-align: center;
+}
+ul>li {
+    padding: 5px;
+}
+ul>li>a {
+    text-decoration: none;
+    color: white;
+}
