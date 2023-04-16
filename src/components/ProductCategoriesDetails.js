@@ -2,7 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import "./ProductCategoriesDetails.css";
 
 function ProductCategoriesDetails() {
-  const params = useParams();
+  const params = useParams(); // gives us access to the currently active route parameters, values encoded in the url for our path segments
 
   return (
     <>

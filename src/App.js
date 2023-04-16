@@ -26,7 +26,7 @@ const routeDefinitions = createBrowserRouter([
         element: <Products />,
       },
       {
-        path: "products/:productId",
+        path: "products/:productId", // :productId indicates its a dynamic route id
         element: <ProductDetails />,
       },
       {
